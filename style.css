@@ -28,6 +28,7 @@ hr {
   position: relative;
   transition: 0.5s;
   cursor: pointer;
+  margin-bottom: 30px;
 }
 .image-box img {
   width: 100%;
@@ -46,7 +47,8 @@ hr {
 }
 .image-box:hover p {
   display: block;
+  transition: 0.3s;
 }
-.image-box:hover img {
-  transform: scale(1.5);
+.image-box:hover {
+  transform: translateY(-40px);
 }
